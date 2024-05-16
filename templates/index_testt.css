@@ -1,0 +1,61 @@
+/*首頁*/
+
+/*基本設定*/
+body{
+    background-color: #ece6e6;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+/*頭部*/
+.header {
+    height: 100px;
+    background-color: #fff;
+  }
+
+.header .wrapper {
+    padding-top: 13px;
+    display: flex;
+    justify-content: center;
+}
+/*橫幅選單*/
+.banner{
+    height: 80px;
+    background-color: #2c4053;
+}
+
+.recommend ul {
+    display: flex;
+    line-height: 80px;
+    justify-content: center;
+}
+
+.recommend ul li a {
+    padding: 0 25px;
+    border-right: 2px solid rgb(107, 127, 146);
+    font-size: 30px;
+    color: #e0dbd4;
+    font-family: 'DFKai-SB'
+}
+
+.banner .recommend li :hover{
+    color: #ca7e4a;
+}
+
+.recommend ul li:first-child a {
+    color: #ca7e4a;
+}
+
+.recommend ul li:last-child a {
+    border-right: 0;
+}
+
+/*首頁顯示*/
+.content .wrapper{
+    font-size: 50px;
+    margin-top: 100px;
+    width: 1200px;
+}

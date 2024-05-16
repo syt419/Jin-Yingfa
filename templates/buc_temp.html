@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="5">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>監測資料</title>
+    <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="./index_buc.css">
+</head>
+<body>
+    <div class="header">
+        <div class="wrapper">
+            <h1 style="font-size: 50px;">PELAB</h1>
+        </div>
+    </div>
+
+    <div class="banner">
+        <div class="wrapper">
+            <div class="recommend">
+                <ul>
+                    <li><a href="./index.html">首頁</a></li>
+                    <li><a href="http://127.0.0.1:5051/pelab/ambline">釜內水溫</a></li>
+                    <li><a href="http://127.0.0.1:5051/pelab/objline">釜內壓力</a></li>
+                    <li><a href="http://127.0.0.1:5051/pelab/bucline">保溫桶水溫</a></li>
+                </ul>
+            </div>
+        </div>
+    </div> 
+    
+    <div class="bot">
+        <div class="wrapper">
+            <ul>
+                <li><a href="http://127.0.0.1:5051/pelab/bucline">折線圖</a></li>
+                <li><a href="http://127.0.0.1:5051/pelab/buclong">長條圖</a></li>
+                <li><a href="http://127.0.0.1:5051/pelab/bucnum">數值</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--這是flask-->
+    <div class="chart">
+        <div class="wrapper">
+            <img src="{{ image_url_5 }}" alt="此處應有折線圖">
+        </div>
+    </div>
+    <!--到這-->
+
+</body>
+</html>
